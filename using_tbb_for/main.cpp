@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         res1[i] = vec1[i] + vec2[i];
         cout << res1[i] << " ";
     } cout << endl;
-    tbb::   parallel_for (size_t(0), res2.size(), [&](size_t i) {
+    tbb::   parallel_for(size_t(0), res2.size(), [&](int i) {
                           res2[i] = vec1[i] + vec2[i];
                           }
                           );
