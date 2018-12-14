@@ -239,8 +239,14 @@
 		FEFC03C921C45266007C0CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KRK236DU7;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/tbb/2018_U5/lib;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/tbb/2018_U5/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/tbb/2018_U5/lib;
+				OTHER_LDFLAGS = "-ltbb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,8 +254,14 @@
 		FEFC03CA21C45266007C0CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KRK236DU7;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Cellar/tbb/2018_U5/lib;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/tbb/2018_U5/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/tbb/2018_U5/lib;
+				OTHER_LDFLAGS = "-ltbb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
